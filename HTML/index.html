@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Selenium Practice Page</title>
+    <style>
+        #div1, #div2 {
+            width: 350px; 
+            height: 70px; 
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Selenium Assignment</h1>
+    <form id="form1">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="dropdown">Choose a language:</label>
+        <select id="dropdown" name="dropdown">
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+            <option value="javascript">JavaScript</option>
+        </select><br><br>
+
+        <fieldset>
+            <legend>Interests:</legend>
+            <input type="checkbox" id="coding" name="interest" value="coding">
+            <label for="coding">Coding</label><br>
+
+            <input type="checkbox" id="music" name="interest" value="music">
+            <label for="music">Music</label><br>
+
+            <input type="checkbox" id="sports" name="interest" value="sports">
+            <label for="sports">Sports</label>
+        </fieldset><br>
+
+        <input type="checkbox" id="agree" name="agree" required>
+        <label for="agree">I agree to the terms and conditions</label><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Drag and Drop Practice</h2>
+    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <p>Drag me to the other box</p>
+    </div>
+    <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+    <script>
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+
+        function drag(ev) {
+            ev.dataTransfer.setData("text", ev.target.id);
+        }
+
+        function drop(ev) {
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("text");
+            ev.target.appendChild(document.getElementById(data));
+        }
+    </script>
+</body>
+</html>
 
