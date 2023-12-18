@@ -7,11 +7,11 @@ using SeleniumCFW.PageObjects;
 namespace  SeleniumCFW
 {
     [TestFixture]
-    public class SeleniumTests
+    public class SeleniumTestsPOM
     {
         private IWebDriver driver;
         private MainPage mainPage;
-        BaseCommand I = new BaseCommand();
+        private BaseCommand I;
 
         [SetUp]
         public void Setup()

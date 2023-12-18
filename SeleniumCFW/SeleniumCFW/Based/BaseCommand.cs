@@ -1,4 +1,8 @@
 ﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Edge;
+using OpenQA.Selenium.Firefox;
+using OpenQA.Selenium.IE;
 using OpenQA.Selenium.Support.UI;
 
 namespace SeleniumCFW.Based;
@@ -8,6 +12,12 @@ public class BaseCommand
     public void Pause(int milliseconds)
     {
         Thread.Sleep(milliseconds);
+    }
+    
+    public void OpenBrowser(IWebDriver driver, String browserName,String Url)
+    {
+        driver = new ChromeDriver();
+        driver.Navigate().GoToUrl(Url);
     }
     
     public void MaximizeWindow(IWebDriver driver)
@@ -20,9 +30,9 @@ public class BaseCommand
         driver.FindElement(by).Click();
     }
     
-    public void SendKeys(IWebDriver driver, By by, String text)
+    public void SendKeys(IWebDriver driver, String element, String text)
     {
-        driver.FindElement(by).SendKeys(text);
+        driver.FindElement(By.Id(element)).SendKeys(text);
     }
     
     public void SelectByText(IWebDriver driver, By by, String text)
