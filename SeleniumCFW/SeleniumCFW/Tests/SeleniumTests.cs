@@ -19,9 +19,8 @@ namespace  SeleniumCFW
             driver = new ChromeDriver();
             I.MaximizeWindow(driver);
             I.Timeouts(driver,30);
-            string pathToHtml = @"C:\Automation\Selenium\SeleniumCFW\selenium-advance\SeleniumCFW\SeleniumCFW\HTML\index.html";
             mainPage = new MainPage(driver);
-            mainPage.NavigateTo(pathToHtml);
+            mainPage.NavigateTo(mainPage.basedURL);
         }
 
         [Test]

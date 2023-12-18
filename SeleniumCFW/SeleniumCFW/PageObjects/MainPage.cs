@@ -6,6 +6,7 @@ namespace SeleniumCFW.PageObjects;
 public class MainPage
 {
     private readonly IWebDriver _driver;
+    public readonly String basedURL = @"C:\Automation\Selenium\SeleniumCFW\selenium-advance\SeleniumCFW\SeleniumCFW\HTML\index.html";
     private By TXT_Name => By.Id("name");
     private By TXT_Email => By.Id("email");
     
