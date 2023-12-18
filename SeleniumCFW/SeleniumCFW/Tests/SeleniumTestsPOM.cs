@@ -26,11 +26,15 @@ namespace  SeleniumCFW
         [Test]
         public void TestPage()
         {
+            //Page Object Method
             mainPage.FillName("Alexis Texas");
             mainPage.FillEmail("a.texas@gmail.com");
             
             mainPage.SelectLanguage("Java");
             mainPage.CheckOnCoding();
+            
+            //Command Driven Method
+            I.Click(driver,"submitForm");
 
             I.Pause(5000);
             I.Quit(driver);

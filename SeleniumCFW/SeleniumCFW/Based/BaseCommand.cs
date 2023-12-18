@@ -25,14 +25,14 @@ public class BaseCommand
         driver.Manage().Window.Maximize();
     }
     
-    public void Click(IWebDriver driver, By by)
+    public void Click(IWebDriver driver, String elementID)
     {
-        driver.FindElement(by).Click();
+        driver.FindElement(By.Id(elementID)).Click();
     }
     
-    public void SendKeys(IWebDriver driver, String element, String text)
+    public void SendKeys(IWebDriver driver, String elementID, String text)
     {
-        driver.FindElement(By.Id(element)).SendKeys(text);
+        driver.FindElement(By.Id(elementID)).SendKeys(text);
     }
     
     public void SelectByText(IWebDriver driver, By by, String text)
