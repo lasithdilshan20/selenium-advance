@@ -11,7 +11,7 @@ namespace  SeleniumCFW
     {
         private IWebDriver driver;
         private MainPage mainPage;
-        private BaseCommand I;
+        private BaseCommand I = new BaseCommand();
 
         [SetUp]
         public void Setup()
