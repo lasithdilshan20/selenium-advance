@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "2032msCe/MV9zKwCtixGwXRymsWPkEF00yinJynzha44HnlS0A+cJdSspPNURYsWcEuGFa88jRSl9V+ifU9EvA==",
+  "dgSpecHash": "j7cRyqklqTmwILgGoCIfxQ71ToiYz8EPJN1nzy9gU13/IyTUf40Wl1O489XXxy16Pq/m9kuU2NjgaKvCdF/xDQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Glesh\\source\\repos\\SeleniumCDotNet\\SeleniumCDotNet\\SeleniumCDotNet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Glesh\\.nuget\\packages\\anglesharp\\1.0.4\\anglesharp.1.0.4.nupkg.sha512",
     "C:\\Users\\Glesh\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\Glesh\\.nuget\\packages\\dotnetseleniumextras.pageobjects.core\\4.14.1\\dotnetseleniumextras.pageobjects.core.4.14.1.nupkg.sha512",
     "C:\\Users\\Glesh\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
     "C:\\Users\\Glesh\\.nuget\\packages\\microsoft.net.test.sdk\\17.6.0\\microsoft.net.test.sdk.17.6.0.nupkg.sha512",
     "C:\\Users\\Glesh\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
@@ -17,6 +18,7 @@
     "C:\\Users\\Glesh\\.nuget\\packages\\nunit\\4.0.1\\nunit.4.0.1.nupkg.sha512",
     "C:\\Users\\Glesh\\.nuget\\packages\\nunit.analyzers\\3.10.0\\nunit.analyzers.3.10.0.nupkg.sha512",
     "C:\\Users\\Glesh\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
+    "C:\\Users\\Glesh\\.nuget\\packages\\selenium.support\\4.16.2\\selenium.support.4.16.2.nupkg.sha512",
     "C:\\Users\\Glesh\\.nuget\\packages\\selenium.webdriver\\4.16.2\\selenium.webdriver.4.16.2.nupkg.sha512",
     "C:\\Users\\Glesh\\.nuget\\packages\\selenium.webdriver.chromedriver\\120.0.6099.7100\\selenium.webdriver.chromedriver.120.0.6099.7100.nupkg.sha512",
     "C:\\Users\\Glesh\\.nuget\\packages\\sharpziplib\\1.4.2\\sharpziplib.1.4.2.nupkg.sha512",

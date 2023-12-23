@@ -10,6 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="DotNetSeleniumExtras.PageObjects.Core" Version="4.14.1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0" />
     <PackageReference Include="NUnit" Version="4.0.1" />
     <PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
@@ -18,6 +19,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="Selenium.Support" Version="4.16.2" />
     <PackageReference Include="Selenium.WebDriver" Version="4.16.2" />
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="120.0.6099.7100" />
     <PackageReference Include="WebDriverManager" Version="2.17.1" />
