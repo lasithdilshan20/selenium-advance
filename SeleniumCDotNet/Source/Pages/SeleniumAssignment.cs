@@ -1,4 +1,5 @@
 ﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
 using SeleniumExtras.PageObjects;
 using System;
 using System.Collections.Generic;
@@ -21,11 +22,13 @@ namespace SeleniumCDotNet.Source.Pages
         [FindsBy(How = How.Id, Using = "coding")]
         private IWebElement _coding;
 
+        [FindsBy(How = How.Id, Using = "dropdown")]
+        private IWebElement _dropdown;
+
         public SeleniumAssignment(IWebDriver driver)
         {
             _driver = driver;
             PageFactory.InitElements(driver, this);
-
         }
 
         public void FillName(String name)
@@ -40,8 +43,13 @@ namespace SeleniumCDotNet.Source.Pages
 
         public void CheckOnCoding() 
         {
-            _coding.Click();
-            
+            _coding.Click();            
+        }
+
+        public void SelectLanguage(String language)
+        { 
+            SelectElement dropdown = new SelectElement(_dropdown);
+            dropdown.SelectByText(language);
         }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SeleniumCDotNet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+199f6121709d474d3d44a4faae3f090601267ab5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1e8e3aaf9ae83025e3ea2ed27df06d02164bd97")]
 [assembly: System.Reflection.AssemblyProductAttribute("SeleniumCDotNet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SeleniumCDotNet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
