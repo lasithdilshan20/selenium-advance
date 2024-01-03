@@ -1,9 +1,3 @@
-C:\Users\Glesh\source\repos\SeleniumCDotNet\SeleniumCDotNet\obj\Debug\net8.0\SeleniumCDotNet.csproj.AssemblyReference.cache
-C:\Users\Glesh\source\repos\SeleniumCDotNet\SeleniumCDotNet\obj\Debug\net8.0\SeleniumCDotNet.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Glesh\source\repos\SeleniumCDotNet\SeleniumCDotNet\obj\Debug\net8.0\SeleniumCDotNet.AssemblyInfoInputs.cache
-C:\Users\Glesh\source\repos\SeleniumCDotNet\SeleniumCDotNet\obj\Debug\net8.0\SeleniumCDotNet.AssemblyInfo.cs
-C:\Users\Glesh\source\repos\SeleniumCDotNet\SeleniumCDotNet\obj\Debug\net8.0\SeleniumCDotNet.csproj.CoreCompileInputs.cache
-C:\Users\Glesh\source\repos\SeleniumCDotNet\SeleniumCDotNet\obj\Debug\net8.0\SeleniumCDotNet.sourcelink.json
 C:\Users\Glesh\source\repos\SeleniumCDotNet\SeleniumCDotNet\bin\Debug\net8.0\testhost.dll
 C:\Users\Glesh\source\repos\SeleniumCDotNet\SeleniumCDotNet\bin\Debug\net8.0\testhost.exe
 C:\Users\Glesh\source\repos\SeleniumCDotNet\SeleniumCDotNet\bin\Debug\net8.0\selenium-manager\linux\selenium-manager
@@ -102,6 +96,12 @@ C:\Users\Glesh\source\repos\SeleniumCDotNet\SeleniumCDotNet\bin\Debug\net8.0\zh-
 C:\Users\Glesh\source\repos\SeleniumCDotNet\SeleniumCDotNet\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Users\Glesh\source\repos\SeleniumCDotNet\SeleniumCDotNet\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\Glesh\source\repos\SeleniumCDotNet\SeleniumCDotNet\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Glesh\source\repos\SeleniumCDotNet\SeleniumCDotNet\obj\Debug\net8.0\SeleniumCDotNet.csproj.AssemblyReference.cache
+C:\Users\Glesh\source\repos\SeleniumCDotNet\SeleniumCDotNet\obj\Debug\net8.0\SeleniumCDotNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Glesh\source\repos\SeleniumCDotNet\SeleniumCDotNet\obj\Debug\net8.0\SeleniumCDotNet.AssemblyInfoInputs.cache
+C:\Users\Glesh\source\repos\SeleniumCDotNet\SeleniumCDotNet\obj\Debug\net8.0\SeleniumCDotNet.AssemblyInfo.cs
+C:\Users\Glesh\source\repos\SeleniumCDotNet\SeleniumCDotNet\obj\Debug\net8.0\SeleniumCDotNet.csproj.CoreCompileInputs.cache
+C:\Users\Glesh\source\repos\SeleniumCDotNet\SeleniumCDotNet\obj\Debug\net8.0\SeleniumCDotNet.sourcelink.json
 C:\Users\Glesh\source\repos\SeleniumCDotNet\SeleniumCDotNet\obj\Debug\net8.0\SeleniumCDotNet.csproj.CopyComplete
 C:\Users\Glesh\source\repos\SeleniumCDotNet\SeleniumCDotNet\obj\Debug\net8.0\SeleniumCDotNet.dll
 C:\Users\Glesh\source\repos\SeleniumCDotNet\SeleniumCDotNet\obj\Debug\net8.0\refint\SeleniumCDotNet.dll

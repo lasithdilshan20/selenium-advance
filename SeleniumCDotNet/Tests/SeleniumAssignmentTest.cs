@@ -1,6 +1,5 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Support.UI;
 using SeleniumCDotNet.Source.Pages;
 using System;
 using System.Collections.Generic;
@@ -12,7 +11,7 @@ using WebDriverManager.DriverConfigs.Impl;
 
 namespace SeleniumCDotNet.Tests
 {
-    public class HomeTests
+    internal class SeleniumAssignmentTest
     {
         private IWebDriver _driver;
         [SetUp]
@@ -20,23 +19,25 @@ namespace SeleniumCDotNet.Tests
         {
             new DriverManager().SetUpDriver(new ChromeConfig());
             _driver = new ChromeDriver();
+           
         }
 
         [Test]
-        public void SearchBook() 
+        public void TestAssignment() 
         {
-            HomePage hp = new HomePage(_driver);
-            _driver.Navigate().GoToUrl("https://www.amazon.com/");
-            Thread.Sleep(50000);
-            hp.Search("Webdriver book");
-
-      
+            SeleniumAssignment hp = new SeleniumAssignment(_driver);
+            _driver.Navigate().GoToUrl("C:\\Users\\Glesh\\source\\repos\\SeleniumCDotNet\\index.html");
+            hp.FillName("Andrew");
+            hp.FillEmail("Andrew@gmail.com");
+        
         }
+
         [TearDown]
         public void Cleanup()
         {
             _driver.Quit();
             _driver.Dispose();
         }
+
     }
 }
